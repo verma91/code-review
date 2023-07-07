@@ -12,4 +12,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          exclude_files: '*.json, *.md, *.yml' # optionally exclude files based on a wildcard expression.
+          exclude_files: '*.md, *.yml' # optionally exclude files based on a wildcard expression.
