@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: wofsauge/Isaac-xmlvalidator-action@main
       - uses: gvasilei/AutoReviewer@0.4
         env:
           NODE_OPTIONS: '--experimental-fetch'
